@@ -1,0 +1,206 @@
+*{
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    font-family:'century gothic', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+body{
+    background: url(images/grape_vine-wallpaper-1366x768.jpg) no-repeat ;
+    background-size: cover;
+}
+.divparent{
+        background: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 92%;
+        height: 36em;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 10px rgba(66, 66, 66, 0.308);
+    }
+section{
+    position: relative;
+}
+.divparent div{
+        display: inline-block;
+    }
+
+
+.divparent .div1 {
+        position: relative;
+        text-align: center;
+        background-color: rgba(248, 248, 164, 0.45);
+        width: 600px;
+        height: 460px;
+        margin: 3.5em 0em 6em 6em;
+    }
+
+
+.divparent .div1 .nav2{
+        position: relative;
+        padding-bottom: 5px;
+
+    }
+.divparent .div1 .nav2 li{
+        display: inline-block;
+    }
+
+.divparent .div1 .nav2 .li1{
+        padding:0 15px 0 0;
+    }
+.divparent .div1 .nav2 .li5{
+        padding:0  0 0 15px;
+    }
+
+.divparent .div1 .nav2 .li2{
+    padding: 0px 50px  0 0;    
+    }
+
+.divparent .div1 .nav2 .li4{
+    padding: 48px  0 0 50px;
+    }
+
+.divparent .div1 .nav2 .li2 img,
+.divparent .div1 .nav2 .li4 img{
+    transform: scale(1);
+    transition: 0.5s;
+    }
+.divparent .div1 .nav2 .li2 img:active,
+.divparent .div1 .nav2 .li4 img:active{
+    transform: scale(1.5); 
+}
+
+.divparent .div1 .nav2 .li3{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 45px;
+    line-height: 90px;
+    box-shadow:0px 0px 20px 8px rgba(148, 148, 148, 0.301);
+
+    }
+.divparent .div1 .nav2 .li3 img{
+    padding-top: 9px;
+    }
+
+
+/* ...................................fin div1........... */
+
+.divparent .div2{
+        width: 410px;
+        position: absolute;
+        height: 460px;
+        margin: 3.5em 8em 6em 2em;
+    }
+.divparent .div2 .ul1{
+    padding-bottom: 20px;
+}
+.divparent .div2 .ul1 li{
+        font-weight: bold;
+        color: rgb(61, 163, 61);
+        font-size: 17px;
+        padding-left: 5px;
+        border-left: 4px solid rgb(250, 248, 122);
+    }
+.divparent .div2  p{
+    color: rgb(138, 138, 138);
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.divparent .div2 .ul2{
+    padding-bottom: 10px;
+}
+
+.divparent .div2 .ul2 li{
+    padding-bottom: 10px;
+    font-size: 35px;
+    letter-spacing: 2px;
+
+}
+
+.divparent .div2 .ul2 li:first-child{
+    letter-spacing: 6px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.divparent .div2 .ul3{
+    padding-bottom: 10px;
+}
+.divparent .div2 .ul3 p:first-child{
+    font-size: 15px;
+    }
+
+
+.divparent .div2 .ul4{
+    position: relative;
+    margin-top: 10px;
+}
+
+.divparent .div2 .ul4 li nav{
+    display: inline-block;
+}
+.divparent .div2 .ul4 li .nav1 {
+    margin-right: 30px;
+}
+.divparent .div2 .ul4 li .nav1 li {
+    position: relative;
+    background-color: rgb(61, 163, 61);
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow:1px 1px 10px 6px rgba(156, 156, 156, 0.589);
+
+}
+
+.divparent .div2 .ul4 li .nav1 li:active{
+    box-shadow:1px 1px 1px 1px rgba(156, 156, 156, 0.589);
+    transform: scale(0.9);
+}
+.divparent .div2 .ul4 li .nav1 a{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.952);
+}
+
+.divparent .div2 .ul4 li .nav2{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+.divparent .div2 .ul4 li .nav2 ul{
+    text-align: center;
+}
+.divparent .div2 .ul4 li .nav2 li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.divparent .div2 .ul4 li .nav2 li a{
+    position: relative;
+    color: rgb(61, 163, 61);
+    font-size: 30px;
+
+}
+.divparent .div2 .ul4 li .nav2 li:nth-child(1){
+    font-size: 40px;
+
+}
+.divparent .div2 .ul4 li .nav2 li:nth-child(1):active,
+.divparent .div2 .ul4 li .nav2 li:nth-child(3):active{
+    transform: scale(0.9);
+
+}
+

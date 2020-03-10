@@ -1,0 +1,190 @@
+*{
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+body{
+    background-color: rgba(180, 180, 180, 0.431);
+}
+.divparent{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    width: 90%;
+    height: 630px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:0px  0px 5px 1px rgba(163, 163, 163, 0.301);
+}
+
+.sect1 li,.sect1 li p,.sect1 li nav{
+    display: inline-block;
+}
+
+.sect1 .li1{
+    margin-left: 6.2em;
+    margin-top: 30px;
+}
+
+.sect1 .li1 a{
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.301);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sect1 .li2 {
+    margin-left: 4.5em;
+}
+
+.sect1 .li2 p a{
+    color: black;
+    padding-right: 40px;
+    font-weight: bold;
+}
+
+.sect1 .li2 p:nth-child(2) a{
+    color: rgb(158, 158, 158);
+    transition: 0.4s;
+}
+.sect1 .li2 p:nth-child(2) a:hover{
+    color: black;
+}
+
+.sect1 .li3 {
+    margin-top: 35px;
+    float: right;
+    position: relative;
+    margin-right: 7em;
+}
+
+.sect1 .li3 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sect1 .li3 input{
+    position: relative;
+    border: none;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+.sect1 .li3 input:hover{
+    border: 2px solid rgba(128, 128, 128, 0.13);
+}
+.sect1 .li3 .nav3{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+
+}
+.sect1 .li3 .nav4 p{
+    padding-left: 50px;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+} 
+
+
+/* ......................section2.......: */
+
+.sect2 {
+        /* text-align: center; */
+        margin-left: 3em;
+    }
+
+.sect2 div{
+    display: inline-block;
+    text-align: initial;
+    padding:0 25px;
+}
+
+.sect2 .div1{
+    margin-top: 4em;
+}
+.sect2 .div1 .ul1 li{
+    font-weight: bold;
+}
+.sect2 .div1 .ul2 li{
+    color: rgb(156, 156, 156);
+    font-size: 11px;
+    padding: 6px 0;
+    transition: 0.4s;
+}
+
+.sect2 .div1 .ul2 li:hover{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+.sect2 .div2 .li1{
+    padding-bottom: 50px;
+}
+.sect2 .div2 h1{
+    font-size: 40px;
+    font-family: "Bodoni MT", Arial, Helvetica, sans-serif;
+    padding: 20px 0 10px 20px;
+}
+
+.sect2 .div2  .li2h1{
+    font-size: 28px;
+
+}
+
+.sect2 .div2 p{
+    font-size: 13px;
+    color: rgb(156, 156, 156);
+
+}
+
+
+
+
+.sect2 .div2{
+    width: 500px;
+    padding: 0 10px 0 20px;
+}
+
+span{
+    border-bottom: 2px solid rgb(156, 156, 156);
+}
+/* ..................................fin div 2.................. */
+.sect2 .div3{
+    position: relative;
+    width: 250px;
+}
+
+.sect2 .div3 nav{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.sect2 .div3 nav p{
+    font-size: 12px;
+    color: rgb(228, 228, 228);
+    width: 200px;
+    padding-bottom: 15px;
+    padding-bottom: 30px;
+
+}
+
+.sect2 .div3 nav h1{
+    color: rgb(236, 236, 236);
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    }
